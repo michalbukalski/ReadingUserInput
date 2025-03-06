@@ -13,7 +13,6 @@ public class ChallangeReadingUserInput_DECIMAL {
             System.out.println("Enter number #"+counter+":");
             String nextNumber = scanner.next();
             try {
-//                int number = Integer.parseInt(nextNumber);
                 double number = Double.parseDouble(nextNumber);
                 counter++;
                 sum+=number;
